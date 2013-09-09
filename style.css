@@ -1,0 +1,43 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:400,300,400italic,700);
+.addthis_button_facebook_send.at300b {
+    margin-left: 30px;
+}
+*{margin:0; padding:0;}
+.center{ width:1000px; margin:0 auto;}
+.clear{ clear:both;}
+.bloco_left{float:left;}
+.bloco_right{float:right;}
+.textcenter{text-align:center;}
+.textpadding{padding-right:15px;}
+.textpaddingleft{ padding-left:15px;}
+.textright{ text-align: right;}
+.paddingtop{padding-top:20px;}
+.textjustify{text-align:justify;}
+h1, h2{
+	color:#648CB3;
+	font:300 2.0em 'Lato', arial, tahoma, sanserif;
+	letter-spacing: 0.01em;
+}
+p{
+	color:#666;
+	font:300 1.20em 'Lato', arial, tahoma, sanserif;
+	letter-spacing: 0.01em;
+}
+#barra_top{background: url(http://empregosgaranhuns.com.br/img/visitantes.jpeg) repeat-x; width:100%; height:50px;
+}
+#barra_top p{ padding-top:15px;color:#fff; font:bold 16px Arial, Verdana, Tahoma;}
+#header{ float:left; background:#eee; height:350px; width:100%;}
+#header h1{
+	 padding-top:50px;
+	 font-size: 80px; text-align:center;
+}
+#header p{
+	padding-top:40px;
+	text-align:center;
+}
+#corpo{}
+#container h1, #container p{ margin-top:30px;}
+
+#footer{ margin:20px 0 0 0; background: url(http://empregosgaranhuns.com.br/img/visitantes.jpeg) repeat-x; width:100%; height:70px; margin-bottom:-180px;
+}
+#footer address{ color:#fff; text-align:center; padding:15px 0 0px 0;}
