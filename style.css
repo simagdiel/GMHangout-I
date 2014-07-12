@@ -1,66 +1,77 @@
+@charset "utf-8";
+/*
+Theme Name: Agência Leader
+Theme URI: http://agencialeader.com.br/
+Description: Desenvolvimento e consultoria.
+Version:1.0
+Author URI: http://agencialeader.com.br/
+*/
+html, body, div, span, applet, object, iframe, form, fieldset,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym,
+address, big, cite, code, del, dfn, em, font, img, ins, kbd, q,
+s, samp, var, small, strike, strong, sub, sup, tt, b, u, i,
+center, dl, dt, dd, ol, ul, li,  label, legend, table, caption,
+tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+ol, ul { list-style: none; }
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
+:focus { outline: 0; }
+del { text-decoration: line-through; }
+table{ border-collapse:separate; border-spacing:0;}
+a:link{color:#ff6633;text-decoration:none;outline:0;}
+a:visited{color:#ff6633;text-decoration:none;outline:0;}
+a:hover{color:#ff6633; text-decoration:none; outline:0;}
+a:active{color:#ccc;text-decoration:none;outline:0;}
+caption,th,td{font-weight:normal;text-align:left;}
+i,em{font-style:italic;}
+b,strong{font-weight:bold;}
+small{font-size:0.625em;}
+big{font-size:1.0em;}
+img {max-width: 100%; max-height:100%;}
+img.alignright{float:right; margin:0 0 1em 1em}
+img.alignleft{float:left; margin:0 1em 1em 0}
+img.aligncenter{display: block; margin-left: auto; margin-right: auto}
+a img.alignright{float:right; margin:0 0 1em 1em}
+a img.alignleft{float:left; margin:0 1em 1em 0}
+a img.aligncenter{display: block; margin-left: auto; margin-right: auto}
+a img{border:0;}
+input{border:0.063em solid #33cc99;}
+p{line-height: 1.4em; padding-bottom:1.0em;}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block;}
+*{margin:0; padding:0; outline:none; border:none;  color: #666;}
+body{height: 100%; text-align: center;}
+html{
+  overflow-x: hidden;
+}
+
 @import url(http://fonts.googleapis.com/css?family=Lato:400,300,400italic,700);
 .addthis_button_facebook_send.at300b {
     margin-left: 30px;
 }
-*{margin:0; padding:0;}
-.center{ width:1000px; margin:0 auto;}
+.center{ max-width: 960px; width: 85%; margin:0 auto;}
 .clear{ clear:both;}
-.bloco_left{float:left;}
-.bloco_right{float:right;}
 .textcenter{text-align:center;}
-.textright{ text-align: right;}
 .textjustify{text-align:justify;}
 .textpadding{padding-right:15px;}
 .textpaddingleft{ padding-left:15px;}
 .paddingtop{padding-top:20px;}
-h1, h2{
-	color:#648CB3;
-	font:300 2.0em 'Lato', arial, tahoma, sanserif;
-	letter-spacing: 0.01em;
-}
-p{
-	color:#666;
-	font:300 1.20em 'Lato', arial, tahoma, sanserif;
-	letter-spacing: 0.01em;
-}
-#barra_top{
-	background: url(http://empregosgaranhuns.com.br/img/visitantes.jpeg) repeat-x;
-	width:100%;
-	height:50px;
-}
-#barra_top p{
-	padding-top:15px;
-	color:#fff;
-	font: bold 16px Arial, Verdana, Tahoma;
-}
-#header{
-	float:left;
-	background:#eee;
-	height:350px;
-	width:100%;
-}
-#header h1{
-	 padding-top:50px;
-	 font-size: 80px;
-	 text-align:center;
-}
-#header p{
-	padding-top:40px;
-	text-align:center;
-}
-#corpo{}
-#container h1, #container p{
-	margin-top:30px;
-}
-#footer{
-	margin:20px 0 0 0;
-	background: url(http://empregosgaranhuns.com.br/img/visitantes.jpeg) repeat-x;
-	width:100%;
-	height:70px;
-	margin-bottom:-180px;
-}
-#footer address{
-	color:#fff;
-	text-align:center;
-	padding:15px 0 0px 0;
-}
+h1, h2{color:#648CB3; font:300 2.0em 'Lato', arial, tahoma, sanserif; letter-spacing: 0.01em;}
+p{ color:#666; font:300 1.20em 'Lato', arial, tahoma, sanserif; letter-spacing: 0.01em; line-height: 1.5em; font-weight: normal;}
+.barra-top{ background: #333; width:100%; height:50px;}
+.barra-top p{ padding-top:15px; color:#fff; font: bold 16px 'Lato', arial, tahoma, sanserif;}
+.header{ float:left; background:#eee; padding: 2em 0; width:100%;}
+.header h1{ padding-top:50px; font-size: 80px; text-align:center;}
+.header p{ padding-top:40px; text-align:center;}
+.corpo{ padding: 3em 0;}
+.container h2{text-transform: uppercase;}
+.container h2, .container p{ margin-top:30px; letter-spacing: 0.09em;}
+.footer{ margin:20px 0 0 0; background: #333; width:100%; height:70px; margin-bottom:-180px;}
+.footer address{ color:#fff; text-align:center; padding:15px 0 0px 0;}
